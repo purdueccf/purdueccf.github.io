@@ -1,6 +1,8 @@
 html,
 body {
 	height: 100%;
+	font-family: "Montserrat", sans-serif;
+
 }
 
 body {
@@ -42,7 +44,6 @@ img {
 }
 
 #stage {
-	font-family: "Montserrat", sans-serif;
 	background: #45adc8 center center no-repeat ;
 	background-size: cover;
 	/*color: #45adc8;*/
@@ -67,6 +68,24 @@ img {
 	color: #f2d73d;
 	font-weight: bold;
 	text-transform: uppercase;
+}
+
+.feature-content {
+	padding: 4rem 0;
+	overflow: hidden;
+}
+
+.feature-content h1 {
+	font-size: 3rem;
+}
+
+ul {
+	padding: 1rem;
+	list-style-type: none;
+}
+
+li {
+	font-size: 1.5rem;
 }
 
 @media screen and (max-width: 630px) {
