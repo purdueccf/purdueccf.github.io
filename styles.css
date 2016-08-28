@@ -43,9 +43,10 @@ img {
 
 #stage {
 	font-family: "Montserrat", sans-serif;
-	background: url("ccf-one.jpg") center center no-repeat ;
+	background: #45adc8 center center no-repeat ;
 	background-size: cover;
-	color: #45adc8;
+	/*color: #45adc8;*/
+	color: #f2d73d;
 	height: 100%;
 	width: 100%;
 	display: flex;
@@ -58,10 +59,25 @@ img {
 	max-width: 60rem;
 	text-align: center;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 #stage-caption h1 {
-	color: #45adc8;
+	/*color: #45adc8;*/
+	color: #f2d73d;
 	font-weight: bold;
 	text-transform: uppercase;
 }
+
+@media screen and (max-width: 630px) {
+	
+	#stage-caption h1 {
+		font-size: 2rem;
+	}
+
+	#stage-caption {
+		font-size: 90%;
+	}
+
+}
+

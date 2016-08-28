@@ -6,18 +6,28 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<!-- Minified Bootstrap 4 CSS -->
 		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-		<!-- Vanilla CSS -->
-		<link rel="stylesheet" href="styles.css">
+
 		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+		<!-- Vanilla CSS -->
+		<link rel="stylesheet" href="styles.css">
+		
 	</head>
 	<body>
 		<div id="stage">
-			<div id="stage-caption">
+			<div id="stage-caption" class="col-md-12 col-xs-12 col-sm-12">
 				<h1 class="display-3">Download the official app for the Computing Career Fair!</h1>
 				<p>Stay up to date with all of the information!</p>
-				<a href="https://itunes.apple.com/us/app/careers-by-symplicity/id962184987?ls=1&amp;mt=8" onclick="trackOutboundLink('https://itunes.apple.com/us/app/careers-by-symplicity/id962184987?ls=1&amp;mt=8'); return false" class=""> <img alt="App Store - Apple" class="img-responsive" src="apple.png"> </a>
-			<a href="https://play.google.com/store/apps/details?id=com.symplicity.careers" onclick="trackOutboundLink('https://play.google.com/store/apps/details?id=com.symplicity.careers'); return false" class=""> <img src="google.png" alt=""> </a>
+				<div class="col-md-6">
+					<a href="https://itunes.apple.com/us/app/careers-by-symplicity/id962184987?ls=1&amp;mt=8" onclick="trackOutboundLink('https://itunes.apple.com/us/app/careers-by-symplicity/id962184987?ls=1&amp;mt=8'); return false" class=""> 
+							<img alt="App Store - Apple" class="img-responsive" src="apple.png"> 
+						</a>
+				</div>
+				<div class="col-md-6">
+					<a href="https://play.google.com/store/apps/details?id=com.symplicity.careers" onclick="trackOutboundLink('https://play.google.com/store/apps/details?id=com.symplicity.careers'); return false" class=""> 
+							<img src="google.png" alt=""> 
+					</a>
+				</div>
 			</div>
 		</div>
 		<!-- Minified jQuery -->
